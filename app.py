@@ -29,7 +29,7 @@ def upload_action():
         'Balance': [122973.12, 122772.87, 122672.87, 122637.87, 122562.62],
     }
     st.session_state['data_frame'] = pd.DataFrame(data)
-    st.image("statement.jpg", caption="Pre-configured Statement", use_column_width=True)
+    st.image("statement.jpg", caption="example", use_column_width=True)
     st.table(st.session_state['data_frame'])
 
 
